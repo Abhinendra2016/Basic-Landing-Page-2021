@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    box-sizing: border-box;
+}
+.box-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box-logo .middle {
+    text-align: center;
+    width: 100px;
+    border-bottom: 2px solid #5b7134;
+    padding-bottom: 5px;
+}
+
+.box-logo .middle img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.box-logo .middle img:hover {
+    transform: scale(1.1);
+}
+
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-info {
+    margin-top: 20px;
+}
+
+form {
+    margin-left: 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: 600;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #5b7134;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #467d28;
+}
+
+.main-text {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.main-text h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.main-text h3 {
+    font-weight: 400;
+    color: #5b7134;
+    margin-bottom: 20px;
+}
+
+.main-text p {
+    font-size: 16px;
+    color: #333;
+}
